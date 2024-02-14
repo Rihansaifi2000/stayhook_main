@@ -169,43 +169,49 @@ class _MoveInScreenState extends State<MoveInScreen> {
                                                 RichText(
                                                   text: TextSpan(
                                                       text: 'TL : ',
-                                                      style: GoogleFonts.roboto(
-                                                        color: Colors.black,
-                                                        fontSize: 15,
-                                                        fontWeight: FontWeight.w500,
+                                                      style:
+                                                      GoogleFonts.roboto(
+                                                        color: Color(0xff4E4E4E),
+                                                        fontSize: 14,
+                                                        fontWeight:
+                                                        FontWeight.w400,
                                                       ),
                                                       children: <TextSpan>[
                                                         TextSpan(
                                                             text: 'SH 00001',
-                                                            style: GoogleFonts.roboto(
-                                                              color: Colors.black54,
-                                                              fontSize: 15,
-                                                              fontWeight: FontWeight.w400,
+                                                            style:
+                                                            GoogleFonts.roboto(
+                                                              color: Color(0xff4E4E4E),
+                                                              fontSize: 14,
+                                                              fontWeight:
+                                                              FontWeight.w400,
                                                             )),
                                                       ]),
                                                 ),
                                                 Text("Gajendra Singh",
-                                                    style: GoogleFonts.roboto(
-                                                      color: const Color(
-                                                          0xff2F2E41),
-                                                      fontSize: 15,
+                                                    style:
+                                                    GoogleFonts.roboto(
+                                                      color: Color(0xff4E4E4E),
+                                                      fontSize: 14,
                                                       fontWeight:
-                                                      FontWeight.w500,
+                                                      FontWeight.w400,
                                                     )),
                                                 Text(
-                                                  'gajendra.singh@gmail.com ',
-                                                  style: GoogleFonts.roboto(
+                                                  'gajendrasingh@gmail.com ',
+                                                  style:
+                                                  GoogleFonts.roboto(
                                                     color: Color(0xff4E4E4E),
-                                                    fontSize: 13,
+                                                    fontSize: 14,
                                                     fontWeight:
                                                     FontWeight.w400,
                                                   ),
                                                 ),
                                                 Text(
-                                                  '+91 3783289323 ',
-                                                  style: GoogleFonts.roboto(
+                                                  'm: +91 9897223366 ',
+                                                  style:
+                                                  GoogleFonts.roboto(
                                                     color: Color(0xff4E4E4E),
-                                                    fontSize: 13,
+                                                    fontSize: 14,
                                                     fontWeight:
                                                     FontWeight.w400,
                                                   ),
@@ -213,36 +219,44 @@ class _MoveInScreenState extends State<MoveInScreen> {
                                                 RichText(
                                                   text: TextSpan(
                                                       text: 'Budget: ',
-                                                      style: GoogleFonts.roboto(
-                                                        color: Colors.black,
-                                                        fontSize: 15,
-                                                        fontWeight: FontWeight.w500,
+                                                      style:
+                                                      GoogleFonts.roboto(
+                                                        color: Color(0xff4E4E4E),
+                                                        fontSize: 14,
+                                                        fontWeight:
+                                                        FontWeight.w400,
                                                       ),
                                                       children: <TextSpan>[
                                                         TextSpan(
                                                             text: '15000.',
-                                                            style: GoogleFonts.roboto(
-                                                              color: Colors.black54,
-                                                              fontSize: 15,
-                                                              fontWeight: FontWeight.w400,
+                                                            style:
+                                                            GoogleFonts.roboto(
+                                                              color: Color(0xff4E4E4E),
+                                                              fontSize: 14,
+                                                              fontWeight:
+                                                              FontWeight.w400,
                                                             )),
                                                       ]),
                                                 ),
                                                 RichText(
                                                   text: TextSpan(
                                                       text: 'Type: ',
-                                                      style: GoogleFonts.roboto(
-                                                        color: Colors.black,
-                                                        fontSize: 15,
-                                                        fontWeight: FontWeight.w500,
+                                                      style:
+                                                      GoogleFonts.roboto(
+                                                        color: Color(0xff4E4E4E),
+                                                        fontSize: 14,
+                                                        fontWeight:
+                                                        FontWeight.w400,
                                                       ),
                                                       children: <TextSpan>[
                                                         TextSpan(
                                                             text: 'Private/Sheared',
-                                                            style: GoogleFonts.roboto(
-                                                              color: Colors.black54,
-                                                              fontSize: 15,
-                                                              fontWeight: FontWeight.w400,
+                                                            style:
+                                                            GoogleFonts.roboto(
+                                                              color: Color(0xff4E4E4E),
+                                                              fontSize: 14,
+                                                              fontWeight:
+                                                              FontWeight.w400,
                                                             )),
                                                       ]),
                                                 ),
@@ -273,28 +287,28 @@ class _MoveInScreenState extends State<MoveInScreen> {
                                               CrossAxisAlignment.start,
                                               children: [
                                                 Text("B4,1004,Panchsheel",
-                                                    style: GoogleFonts.roboto(
-                                                      color: const Color(
-                                                          0xff2F2E41 ),
-                                                      fontSize: 15,
+                                                    style:
+                                                    GoogleFonts.roboto(
+                                                      color: Color(0xff4E4E4E),
+                                                      fontSize: 14,
                                                       fontWeight:
-                                                      FontWeight.w500,
+                                                      FontWeight.w400,
                                                     )),
                                                 Text("Greens-2,Sector 16,Noida Up",
-                                                    style: GoogleFonts.roboto(
-                                                      color: const Color(
-                                                          0xff2F2E41),
-                                                      fontSize: 15,
+                                                    style:
+                                                    GoogleFonts.roboto(
+                                                      color: Color(0xff4E4E4E),
+                                                      fontSize: 14,
                                                       fontWeight:
-                                                      FontWeight.w500,
+                                                      FontWeight.w400,
                                                     )),
                                                 Text("201301.",
-                                                    style: GoogleFonts.roboto(
-                                                      color: const Color(
-                                                          0xff2F2E41),
-                                                      fontSize: 15,
+                                                    style:
+                                                    GoogleFonts.roboto(
+                                                      color: Color(0xff4E4E4E),
+                                                      fontSize: 14,
                                                       fontWeight:
-                                                      FontWeight.w500,
+                                                      FontWeight.w400,
                                                     )),
                                               ],
                                             ),
@@ -1141,9 +1155,10 @@ class _MoveInScreenState extends State<MoveInScreen> {
                                             ),
                                             Text(
                                               'Call Date : 12/01/2023 ',
-                                              style: GoogleFonts.roboto(
+                                              style:
+                                              GoogleFonts.roboto(
                                                 color: Color(0xff4E4E4E),
-                                                fontSize: 12,
+                                                fontSize: 14,
                                                 fontWeight:
                                                 FontWeight.w400,
                                               ),
@@ -1153,9 +1168,10 @@ class _MoveInScreenState extends State<MoveInScreen> {
                                             ),
                                             Text(
                                               'Call Time : 3.50 pm ',
-                                              style: GoogleFonts.roboto(
+                                              style:
+                                              GoogleFonts.roboto(
                                                 color: Color(0xff4E4E4E),
-                                                fontSize: 12,
+                                                fontSize: 14,
                                                 fontWeight:
                                                 FontWeight.w400,
                                               ),
@@ -1166,19 +1182,20 @@ class _MoveInScreenState extends State<MoveInScreen> {
                                             RichText(
                                               text: TextSpan(
                                                   text: 'Select Property : ',
-                                                  style: GoogleFonts.roboto(
-                                                    color: Colors.black,
-                                                    fontSize: 15,
+                                                  style:
+                                                  GoogleFonts.roboto(
+                                                    color: Color(0xff4E4E4E),
+                                                    fontSize: 14,
                                                     fontWeight:
-                                                    FontWeight.w500,
+                                                    FontWeight.w400,
                                                   ),
                                                   children: <TextSpan>[
                                                     TextSpan(
                                                         text: 'Property 1',
-                                                        style: GoogleFonts
-                                                            .roboto(
+                                                        style:
+                                                        GoogleFonts.roboto(
                                                           color: Color(0xff4E4E4E),
-                                                          fontSize: 15,
+                                                          fontSize: 14,
                                                           fontWeight:
                                                           FontWeight.w400,
                                                         )),
@@ -1190,19 +1207,20 @@ class _MoveInScreenState extends State<MoveInScreen> {
                                             RichText(
                                               text: TextSpan(
                                                   text: 'Status : ',
-                                                  style: GoogleFonts.roboto(
-                                                    color: Colors.black,
-                                                    fontSize: 15,
+                                                  style:
+                                                  GoogleFonts.roboto(
+                                                    color: Color(0xff4E4E4E),
+                                                    fontSize: 14,
                                                     fontWeight:
-                                                    FontWeight.w500,
+                                                    FontWeight.w400,
                                                   ),
                                                   children: <TextSpan>[
                                                     TextSpan(
                                                         text: 'Status 1',
-                                                        style: GoogleFonts
-                                                            .roboto(
+                                                        style:
+                                                        GoogleFonts.roboto(
                                                           color: Color(0xff4E4E4E),
-                                                          fontSize: 15,
+                                                          fontSize: 14,
                                                           fontWeight:
                                                           FontWeight.w400,
                                                         )),
@@ -1210,12 +1228,12 @@ class _MoveInScreenState extends State<MoveInScreen> {
                                             ),
                                             Text(
                                                 'Comment:  ',
-                                                style: GoogleFonts
-                                                    .roboto(
-                                                  color: Colors.black,
-                                                  fontSize: 15,
+                                                style:
+                                                GoogleFonts.roboto(
+                                                  color: Color(0xff4E4E4E),
+                                                  fontSize: 14,
                                                   fontWeight:
-                                                  FontWeight.w500,
+                                                  FontWeight.w400,
                                                 )
                                             ),
 
@@ -1282,9 +1300,10 @@ class _MoveInScreenState extends State<MoveInScreen> {
                                             ),
                                             Text(
                                               'Call Date : 12/01/2023 ',
-                                              style: GoogleFonts.roboto(
+                                              style:
+                                              GoogleFonts.roboto(
                                                 color: Color(0xff4E4E4E),
-                                                fontSize: 12,
+                                                fontSize: 14,
                                                 fontWeight:
                                                 FontWeight.w400,
                                               ),
@@ -1294,9 +1313,10 @@ class _MoveInScreenState extends State<MoveInScreen> {
                                             ),
                                             Text(
                                               'Call Time : 3.50 pm ',
-                                              style: GoogleFonts.roboto(
+                                              style:
+                                              GoogleFonts.roboto(
                                                 color: Color(0xff4E4E4E),
-                                                fontSize: 12,
+                                                fontSize: 14,
                                                 fontWeight:
                                                 FontWeight.w400,
                                               ),
@@ -1307,19 +1327,20 @@ class _MoveInScreenState extends State<MoveInScreen> {
                                             RichText(
                                               text: TextSpan(
                                                   text: 'Select Property : ',
-                                                  style: GoogleFonts.roboto(
-                                                    color: Colors.black,
-                                                    fontSize: 15,
+                                                  style:
+                                                  GoogleFonts.roboto(
+                                                    color: Color(0xff4E4E4E),
+                                                    fontSize: 14,
                                                     fontWeight:
-                                                    FontWeight.w500,
+                                                    FontWeight.w400,
                                                   ),
                                                   children: <TextSpan>[
                                                     TextSpan(
                                                         text: 'Property 1',
-                                                        style: GoogleFonts
-                                                            .roboto(
+                                                        style:
+                                                        GoogleFonts.roboto(
                                                           color: Color(0xff4E4E4E),
-                                                          fontSize: 15,
+                                                          fontSize: 14,
                                                           fontWeight:
                                                           FontWeight.w400,
                                                         )),
@@ -1331,19 +1352,20 @@ class _MoveInScreenState extends State<MoveInScreen> {
                                             RichText(
                                               text: TextSpan(
                                                   text: 'Status : ',
-                                                  style: GoogleFonts.roboto(
-                                                    color: Colors.black,
-                                                    fontSize: 15,
+                                                  style:
+                                                  GoogleFonts.roboto(
+                                                    color: Color(0xff4E4E4E),
+                                                    fontSize: 14,
                                                     fontWeight:
-                                                    FontWeight.w500,
+                                                    FontWeight.w400,
                                                   ),
                                                   children: <TextSpan>[
                                                     TextSpan(
                                                         text: 'Status 1',
-                                                        style: GoogleFonts
-                                                            .roboto(
+                                                        style:
+                                                        GoogleFonts.roboto(
                                                           color: Color(0xff4E4E4E),
-                                                          fontSize: 15,
+                                                          fontSize: 14,
                                                           fontWeight:
                                                           FontWeight.w400,
                                                         )),
@@ -1351,12 +1373,12 @@ class _MoveInScreenState extends State<MoveInScreen> {
                                             ),
                                             Text(
                                                 'Comment:  ',
-                                                style: GoogleFonts
-                                                    .roboto(
-                                                  color: Colors.black,
-                                                  fontSize: 15,
+                                                style:
+                                                GoogleFonts.roboto(
+                                                  color: Color(0xff4E4E4E),
+                                                  fontSize: 14,
                                                   fontWeight:
-                                                  FontWeight.w500,
+                                                  FontWeight.w400,
                                                 )
                                             ),
 
@@ -1424,19 +1446,20 @@ class _MoveInScreenState extends State<MoveInScreen> {
                                             RichText(
                                               text: TextSpan(
                                                   text: 'Final Property: ',
-                                                  style: GoogleFonts.roboto(
-                                                    color: Colors.black,
-                                                    fontSize: 15,
+                                                  style:
+                                                  GoogleFonts.roboto(
+                                                    color: Color(0xff4E4E4E),
+                                                    fontSize: 14,
                                                     fontWeight:
-                                                    FontWeight.w500,
+                                                    FontWeight.w400,
                                                   ),
                                                   children: <TextSpan>[
                                                     TextSpan(
                                                         text: 'B4 1004, Panchsheel Greens-2.Sector 16, Noida UP,201301',
-                                                        style: GoogleFonts
-                                                            .roboto(
-                                                          color: Colors.black54,
-                                                          fontSize: 15,
+                                                        style:
+                                                        GoogleFonts.roboto(
+                                                          color: Color(0xff4E4E4E),
+                                                          fontSize: 14,
                                                           fontWeight:
                                                           FontWeight.w400,
                                                         )),
@@ -1449,21 +1472,22 @@ class _MoveInScreenState extends State<MoveInScreen> {
                                             RichText(
                                               text: TextSpan(
                                                   text: 'Type: ',
-                                                  style: GoogleFonts.roboto(
-                                                    color: Colors.black,
-                                                    fontSize: 15,
+                                                  style:
+                                                  GoogleFonts.roboto(
+                                                    color: Color(0xff4E4E4E),
+                                                    fontSize: 14,
                                                     fontWeight:
-                                                    FontWeight.w500,
+                                                    FontWeight.w400,
                                                   ),
                                                   children: <TextSpan>[
                                                     TextSpan(
                                                         text: 'Shared',
-                                                        style: GoogleFonts
-                                                            .roboto(
-                                                          color: Colors.black54,
-                                                          fontSize: 15,
+                                                        style:
+                                                        GoogleFonts.roboto(
+                                                          color: Color(0xff4E4E4E),
+                                                          fontSize: 14,
                                                           fontWeight:
-                                                          FontWeight.w500,
+                                                          FontWeight.w400,
                                                         )),
                                                   ]),
                                             ),
@@ -1473,19 +1497,20 @@ class _MoveInScreenState extends State<MoveInScreen> {
                                             RichText(
                                               text: TextSpan(
                                                   text: 'Rent/Month: ',
-                                                  style: GoogleFonts.roboto(
-                                                    color: Colors.black,
-                                                    fontSize: 15,
+                                                  style:
+                                                  GoogleFonts.roboto(
+                                                    color: Color(0xff4E4E4E),
+                                                    fontSize: 14,
                                                     fontWeight:
-                                                    FontWeight.w500,
+                                                    FontWeight.w400,
                                                   ),
                                                   children: <TextSpan>[
                                                     TextSpan(
                                                         text: '\u{20B9}${'2,000'}',
-                                                        style: GoogleFonts
-                                                            .roboto(
-                                                          color: Colors.black54,
-                                                          fontSize: 15,
+                                                        style:
+                                                        GoogleFonts.roboto(
+                                                          color: Color(0xff4E4E4E),
+                                                          fontSize: 14,
                                                           fontWeight:
                                                           FontWeight.w400,
                                                         )),
@@ -1497,19 +1522,20 @@ class _MoveInScreenState extends State<MoveInScreen> {
                                             RichText(
                                               text: TextSpan(
                                                   text: 'Rent Collected: ',
-                                                  style: GoogleFonts.roboto(
-                                                    color: Colors.black,
-                                                    fontSize: 15,
+                                                  style:
+                                                  GoogleFonts.roboto(
+                                                    color: Color(0xff4E4E4E),
+                                                    fontSize: 14,
                                                     fontWeight:
-                                                    FontWeight.w500,
+                                                    FontWeight.w400,
                                                   ),
                                                   children: <TextSpan>[
                                                     TextSpan(
                                                         text: 'Yes',
-                                                        style: GoogleFonts
-                                                            .roboto(
-                                                          color: Colors.black54,
-                                                          fontSize: 15,
+                                                        style:
+                                                        GoogleFonts.roboto(
+                                                          color: Color(0xff4E4E4E),
+                                                          fontSize: 14,
                                                           fontWeight:
                                                           FontWeight.w400,
                                                         )),
@@ -1521,19 +1547,20 @@ class _MoveInScreenState extends State<MoveInScreen> {
                                             RichText(
                                               text: TextSpan(
                                                   text: 'Security Collected: ',
-                                                  style: GoogleFonts.roboto(
-                                                    color: Colors.black,
-                                                    fontSize: 15,
+                                                  style:
+                                                  GoogleFonts.roboto(
+                                                    color: Color(0xff4E4E4E),
+                                                    fontSize: 14,
                                                     fontWeight:
-                                                    FontWeight.w500,
+                                                    FontWeight.w400,
                                                   ),
                                                   children: <TextSpan>[
                                                     TextSpan(
                                                         text: 'Yes',
-                                                        style: GoogleFonts
-                                                            .roboto(
-                                                          color: Colors.black54,
-                                                          fontSize: 15,
+                                                        style:
+                                                        GoogleFonts.roboto(
+                                                          color: Color(0xff4E4E4E),
+                                                          fontSize: 14,
                                                           fontWeight:
                                                           FontWeight.w400,
                                                         )),
@@ -1545,19 +1572,20 @@ class _MoveInScreenState extends State<MoveInScreen> {
                                             RichText(
                                               text: TextSpan(
                                                   text: 'Agreement Shared: ',
-                                                  style: GoogleFonts.roboto(
-                                                    color: Colors.black,
-                                                    fontSize: 15,
+                                                  style:
+                                                  GoogleFonts.roboto(
+                                                    color: Color(0xff4E4E4E),
+                                                    fontSize: 14,
                                                     fontWeight:
-                                                    FontWeight.w500,
+                                                    FontWeight.w400,
                                                   ),
                                                   children: <TextSpan>[
                                                     TextSpan(
                                                         text: 'Yes',
-                                                        style: GoogleFonts
-                                                            .roboto(
-                                                          color: Colors.black54,
-                                                          fontSize: 15,
+                                                        style:
+                                                        GoogleFonts.roboto(
+                                                          color: Color(0xff4E4E4E),
+                                                          fontSize: 14,
                                                           fontWeight:
                                                           FontWeight.w400,
                                                         )),
@@ -1569,19 +1597,20 @@ class _MoveInScreenState extends State<MoveInScreen> {
                                             RichText(
                                               text: TextSpan(
                                                   text: 'Key handover: ',
-                                                  style: GoogleFonts.roboto(
-                                                    color: Colors.black,
-                                                    fontSize: 15,
+                                                  style:
+                                                  GoogleFonts.roboto(
+                                                    color: Color(0xff4E4E4E),
+                                                    fontSize: 14,
                                                     fontWeight:
-                                                    FontWeight.w500,
+                                                    FontWeight.w400,
                                                   ),
                                                   children: <TextSpan>[
                                                     TextSpan(
                                                         text: 'Yes',
-                                                        style: GoogleFonts
-                                                            .roboto(
-                                                          color: Colors.black54,
-                                                          fontSize: 15,
+                                                        style:
+                                                        GoogleFonts.roboto(
+                                                          color: Color(0xff4E4E4E),
+                                                          fontSize: 14,
                                                           fontWeight:
                                                           FontWeight.w400,
                                                         )),
@@ -1593,19 +1622,20 @@ class _MoveInScreenState extends State<MoveInScreen> {
                                             RichText(
                                               text: TextSpan(
                                                   text: 'Owner Email Sent: ',
-                                                  style: GoogleFonts.roboto(
-                                                    color: Colors.black,
-                                                    fontSize: 15,
+                                                  style:
+                                                  GoogleFonts.roboto(
+                                                    color: Color(0xff4E4E4E),
+                                                    fontSize: 14,
                                                     fontWeight:
-                                                    FontWeight.w500,
+                                                    FontWeight.w400,
                                                   ),
                                                   children: <TextSpan>[
                                                     TextSpan(
                                                         text: 'Yes',
-                                                        style: GoogleFonts
-                                                            .roboto(
-                                                          color: Colors.black54,
-                                                          fontSize: 15,
+                                                        style:
+                                                        GoogleFonts.roboto(
+                                                          color: Color(0xff4E4E4E),
+                                                          fontSize: 14,
                                                           fontWeight:
                                                           FontWeight.w400,
                                                         )),
@@ -1617,19 +1647,20 @@ class _MoveInScreenState extends State<MoveInScreen> {
                                             RichText(
                                               text: TextSpan(
                                                   text: 'Status : ',
-                                                  style: GoogleFonts.roboto(
-                                                    color: Colors.black,
-                                                    fontSize: 15,
+                                                  style:
+                                                  GoogleFonts.roboto(
+                                                    color: Color(0xff4E4E4E),
+                                                    fontSize: 14,
                                                     fontWeight:
-                                                    FontWeight.w500,
+                                                    FontWeight.w400,
                                                   ),
                                                   children: <TextSpan>[
                                                     TextSpan(
                                                         text: ' Incomplete KYC, Hold, Move IN, Cancelled.',
-                                                        style: GoogleFonts
-                                                            .roboto(
+                                                        style:
+                                                        GoogleFonts.roboto(
                                                           color: Color(0xff4E4E4E),
-                                                          fontSize: 15,
+                                                          fontSize: 14,
                                                           fontWeight:
                                                           FontWeight.w400,
                                                         )),
@@ -1703,19 +1734,20 @@ class _MoveInScreenState extends State<MoveInScreen> {
                                             RichText(
                                               text: TextSpan(
                                                   text: 'Move Out Date: ',
-                                                  style: GoogleFonts.roboto(
-                                                    color: Colors.black,
-                                                    fontSize: 15,
+                                                  style:
+                                                  GoogleFonts.roboto(
+                                                    color: Color(0xff4E4E4E),
+                                                    fontSize: 14,
                                                     fontWeight:
-                                                    FontWeight.w500,
+                                                    FontWeight.w400,
                                                   ),
                                                   children: <TextSpan>[
                                                     TextSpan(
                                                         text: '03/01/2024',
-                                                        style: GoogleFonts
-                                                            .roboto(
-                                                          color: Colors.black54,
-                                                          fontSize: 15,
+                                                        style:
+                                                        GoogleFonts.roboto(
+                                                          color: Color(0xff4E4E4E),
+                                                          fontSize: 14,
                                                           fontWeight:
                                                           FontWeight.w400,
                                                         )),
@@ -1728,19 +1760,20 @@ class _MoveInScreenState extends State<MoveInScreen> {
                                             RichText(
                                               text: TextSpan(
                                                   text: 'Inspection Date: ',
-                                                  style: GoogleFonts.roboto(
-                                                    color: Colors.black,
-                                                    fontSize: 15,
+                                                  style:
+                                                  GoogleFonts.roboto(
+                                                    color: Color(0xff4E4E4E),
+                                                    fontSize: 14,
                                                     fontWeight:
-                                                    FontWeight.w500,
+                                                    FontWeight.w400,
                                                   ),
                                                   children: <TextSpan>[
                                                     TextSpan(
                                                         text: '04/01/2024',
-                                                        style: GoogleFonts
-                                                            .roboto(
-                                                          color: Colors.black54,
-                                                          fontSize: 15,
+                                                        style:
+                                                        GoogleFonts.roboto(
+                                                          color: Color(0xff4E4E4E),
+                                                          fontSize: 14,
                                                           fontWeight:
                                                           FontWeight.w400,
                                                         )),
@@ -1752,19 +1785,20 @@ class _MoveInScreenState extends State<MoveInScreen> {
                                             RichText(
                                               text: TextSpan(
                                                   text: 'Move Out Reason: ',
-                                                  style: GoogleFonts.roboto(
-                                                    color: Colors.black,
-                                                    fontSize: 15,
+                                                  style:
+                                                  GoogleFonts.roboto(
+                                                    color: Color(0xff4E4E4E),
+                                                    fontSize: 14,
                                                     fontWeight:
-                                                    FontWeight.w500,
+                                                    FontWeight.w400,
                                                   ),
                                                   children: <TextSpan>[
                                                     TextSpan(
                                                         text: ' ( Society Problem, Owner Request, Criminal Report, Payment Delays, Other) ',
-                                                        style: GoogleFonts
-                                                            .roboto(
-                                                          color: Colors.black54,
-                                                          fontSize: 15,
+                                                        style:
+                                                        GoogleFonts.roboto(
+                                                          color: Color(0xff4E4E4E),
+                                                          fontSize: 14,
                                                           fontWeight:
                                                           FontWeight.w400,
                                                         )),
@@ -1776,11 +1810,12 @@ class _MoveInScreenState extends State<MoveInScreen> {
                                             RichText(
                                               text: TextSpan(
                                                   text: 'comment: ',
-                                                  style: GoogleFonts.roboto(
-                                                    color: Colors.black,
-                                                    fontSize: 15,
+                                                  style:
+                                                  GoogleFonts.roboto(
+                                                    color: Color(0xff4E4E4E),
+                                                    fontSize: 14,
                                                     fontWeight:
-                                                    FontWeight.w500,
+                                                    FontWeight.w400,
                                                   ),
                                                   children: <TextSpan>[
                                                     TextSpan(
@@ -1835,7 +1870,7 @@ class _MoveInScreenState extends State<MoveInScreen> {
         curve: Curves.bounceInOut,
         children: [
 
-          SpeedDialChild(
+          /*SpeedDialChild(
             child: Icon(Icons.home,
                 color: Colors.blue),
             backgroundColor: Colors.white,
@@ -2139,7 +2174,7 @@ class _MoveInScreenState extends State<MoveInScreen> {
             labelStyle:
             TextStyle(fontWeight: FontWeight.w500, color: Colors.white),
             labelBackgroundColor: Colors.black,
-          ),
+          ),*/
           SpeedDialChild(
             child: Icon(Icons.home,
                 color: Colors.blue),

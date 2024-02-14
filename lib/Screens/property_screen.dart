@@ -197,67 +197,66 @@ class _PropertyScreenState extends State<PropertyScreen> {
                                                   /*Image.asset("assets/images/property_home_picture.png",width: 400,),*/
                                                   Text(
                                                       "B4,1004,panchsheel greens - 2, sector 16,Noida ,UP,2BHK (1105 sqft)",
-                                                      style: GoogleFonts.roboto(
-                                                        color: Colors.black,
-                                                        fontSize: 15,
-                                                        fontWeight: FontWeight
-                                                            .w500,
+                                                      style:
+                                                      GoogleFonts.roboto(
+                                                        color: Color(0xff4E4E4E),
+                                                        fontSize: 14,
+                                                        fontWeight:
+                                                        FontWeight.w400,
                                                       )),
                                                   RichText(
                                                     text: TextSpan(
                                                         text: 'Owner : ',
-                                                        style: GoogleFonts
-                                                            .roboto(
-                                                          color: Colors.black,
-                                                          fontSize: 15,
-                                                          fontWeight: FontWeight
-                                                              .w500,
+                                                        style:
+                                                        GoogleFonts.roboto(
+                                                          color: Color(0xff4E4E4E),
+                                                          fontSize: 14,
+                                                          fontWeight:
+                                                          FontWeight.w400,
                                                         ),
                                                         children: <TextSpan>[
                                                           TextSpan(
                                                               text: 'Gajendra Singh',
-                                                              style: GoogleFonts
-                                                                  .roboto(
-                                                                color: Colors
-                                                                    .black54,
-                                                                fontSize: 15,
-                                                                fontWeight: FontWeight
-                                                                    .w400,
+                                                              style:
+                                                              GoogleFonts.roboto(
+                                                                color: Color(0xff4E4E4E),
+                                                                fontSize: 14,
+                                                                fontWeight:
+                                                                FontWeight.w400,
                                                               )),
                                                         ]),
                                                   ),
                                                   RichText(
                                                     text: TextSpan(
                                                         text: 'Revenue Share : ',
-                                                        style: GoogleFonts
-                                                            .roboto(
-                                                          color: Colors.black,
-                                                          fontSize: 15,
-                                                          fontWeight: FontWeight
-                                                              .w500,
+                                                        style:
+                                                        GoogleFonts.roboto(
+                                                          color: Color(0xff4E4E4E),
+                                                          fontSize: 14,
+                                                          fontWeight:
+                                                          FontWeight.w400,
                                                         ),
                                                         children: <TextSpan>[
                                                           TextSpan(
                                                               text: '50%',
-                                                              style: GoogleFonts
-                                                                  .roboto(
-                                                                color: Colors
-                                                                    .black54,
-                                                                fontSize: 15,
-                                                                fontWeight: FontWeight
-                                                                    .w400,
+                                                              style:
+                                                              GoogleFonts.roboto(
+                                                                color: Color(0xff4E4E4E),
+                                                                fontSize: 14,
+                                                                fontWeight:
+                                                                FontWeight.w400,
                                                               )),
                                                         ]),
                                                   ),
                                                   RichText(
                                                     text: TextSpan(
                                                         text: 'Status : ',
-                                                        style: GoogleFonts
-                                                            .roboto(
-                                                          color: Colors.black,
-                                                          fontSize: 15,
-                                                          fontWeight: FontWeight
-                                                              .w500,
+                                                        style:
+                                                        GoogleFonts.roboto(
+                                                          color: Color(0xff4E4E4E),
+                                                          fontSize: 14,
+                                                          fontWeight:
+                                                          FontWeight.w400,
                                                         ),
                                                         children: <TextSpan>[
                                                           TextSpan(
@@ -381,67 +380,66 @@ class _PropertyScreenState extends State<PropertyScreen> {
                                                   /*Image.asset("assets/images/property_home_picture.png",width: 400,),*/
                                                   Text(
                                                       "B4,1004,panchsheel greens - 2, sector 16,Noida ,UP,2BHK (1105 sqft)",
-                                                      style: GoogleFonts.roboto(
-                                                        color: Colors.black,
-                                                        fontSize: 15,
-                                                        fontWeight: FontWeight
-                                                            .w500,
+                                                      style:
+                                                      GoogleFonts.roboto(
+                                                        color: Color(0xff4E4E4E),
+                                                        fontSize: 14,
+                                                        fontWeight:
+                                                        FontWeight.w400,
                                                       )),
                                                   RichText(
                                                     text: TextSpan(
                                                         text: 'Owner : ',
-                                                        style: GoogleFonts
-                                                            .roboto(
-                                                          color: Colors.black,
-                                                          fontSize: 15,
-                                                          fontWeight: FontWeight
-                                                              .w500,
+                                                        style:
+                                                        GoogleFonts.roboto(
+                                                          color: Color(0xff4E4E4E),
+                                                          fontSize: 14,
+                                                          fontWeight:
+                                                          FontWeight.w400,
                                                         ),
                                                         children: <TextSpan>[
                                                           TextSpan(
                                                               text: 'Gajendra Singh',
-                                                              style: GoogleFonts
-                                                                  .roboto(
-                                                                color: Colors
-                                                                    .black54,
-                                                                fontSize: 15,
-                                                                fontWeight: FontWeight
-                                                                    .w400,
+                                                              style:
+                                                              GoogleFonts.roboto(
+                                                                color: Color(0xff4E4E4E),
+                                                                fontSize: 14,
+                                                                fontWeight:
+                                                                FontWeight.w400,
                                                               )),
                                                         ]),
                                                   ),
                                                   RichText(
                                                     text: TextSpan(
                                                         text: 'Revenue Share : ',
-                                                        style: GoogleFonts
-                                                            .roboto(
-                                                          color: Colors.black,
-                                                          fontSize: 15,
-                                                          fontWeight: FontWeight
-                                                              .w500,
+                                                        style:
+                                                        GoogleFonts.roboto(
+                                                          color: Color(0xff4E4E4E),
+                                                          fontSize: 14,
+                                                          fontWeight:
+                                                          FontWeight.w400,
                                                         ),
                                                         children: <TextSpan>[
                                                           TextSpan(
                                                               text: '50%',
-                                                              style: GoogleFonts
-                                                                  .roboto(
-                                                                color: Colors
-                                                                    .black54,
-                                                                fontSize: 15,
-                                                                fontWeight: FontWeight
-                                                                    .w400,
+                                                              style:
+                                                              GoogleFonts.roboto(
+                                                                color: Color(0xff4E4E4E),
+                                                                fontSize: 14,
+                                                                fontWeight:
+                                                                FontWeight.w400,
                                                               )),
                                                         ]),
                                                   ),
                                                   RichText(
                                                     text: TextSpan(
                                                         text: 'Status : ',
-                                                        style: GoogleFonts
-                                                            .roboto(
-                                                          color: Colors.black,
-                                                          fontSize: 15,
-                                                          fontWeight: FontWeight
-                                                              .w500,
+                                                        style:
+                                                        GoogleFonts.roboto(
+                                                          color: Color(0xff4E4E4E),
+                                                          fontSize: 14,
+                                                          fontWeight:
+                                                          FontWeight.w400,
                                                         ),
                                                         children: <TextSpan>[
                                                           TextSpan(
@@ -565,67 +563,66 @@ class _PropertyScreenState extends State<PropertyScreen> {
                                                   /*Image.asset("assets/images/property_home_picture.png",width: 400,),*/
                                                   Text(
                                                       "B4,1004,panchsheel greens - 2, sector 16,Noida ,UP,2BHK (1105 sqft)",
-                                                      style: GoogleFonts.roboto(
-                                                        color: Colors.black,
-                                                        fontSize: 15,
-                                                        fontWeight: FontWeight
-                                                            .w500,
+                                                      style:
+                                                      GoogleFonts.roboto(
+                                                        color: Color(0xff4E4E4E),
+                                                        fontSize: 14,
+                                                        fontWeight:
+                                                        FontWeight.w400,
                                                       )),
                                                   RichText(
                                                     text: TextSpan(
                                                         text: 'Owner : ',
-                                                        style: GoogleFonts
-                                                            .roboto(
-                                                          color: Colors.black,
-                                                          fontSize: 15,
-                                                          fontWeight: FontWeight
-                                                              .w500,
+                                                        style:
+                                                        GoogleFonts.roboto(
+                                                          color: Color(0xff4E4E4E),
+                                                          fontSize: 14,
+                                                          fontWeight:
+                                                          FontWeight.w400,
                                                         ),
                                                         children: <TextSpan>[
                                                           TextSpan(
                                                               text: 'Gajendra Singh',
-                                                              style: GoogleFonts
-                                                                  .roboto(
-                                                                color: Colors
-                                                                    .black54,
-                                                                fontSize: 15,
-                                                                fontWeight: FontWeight
-                                                                    .w400,
+                                                              style:
+                                                              GoogleFonts.roboto(
+                                                                color: Color(0xff4E4E4E),
+                                                                fontSize: 14,
+                                                                fontWeight:
+                                                                FontWeight.w400,
                                                               )),
                                                         ]),
                                                   ),
                                                   RichText(
                                                     text: TextSpan(
                                                         text: 'Revenue Share : ',
-                                                        style: GoogleFonts
-                                                            .roboto(
-                                                          color: Colors.black,
-                                                          fontSize: 15,
-                                                          fontWeight: FontWeight
-                                                              .w500,
+                                                        style:
+                                                        GoogleFonts.roboto(
+                                                          color: Color(0xff4E4E4E),
+                                                          fontSize: 14,
+                                                          fontWeight:
+                                                          FontWeight.w400,
                                                         ),
                                                         children: <TextSpan>[
                                                           TextSpan(
                                                               text: '50%',
-                                                              style: GoogleFonts
-                                                                  .roboto(
-                                                                color: Colors
-                                                                    .black54,
-                                                                fontSize: 15,
-                                                                fontWeight: FontWeight
-                                                                    .w400,
+                                                              style:
+                                                              GoogleFonts.roboto(
+                                                                color: Color(0xff4E4E4E),
+                                                                fontSize: 14,
+                                                                fontWeight:
+                                                                FontWeight.w400,
                                                               )),
                                                         ]),
                                                   ),
                                                   RichText(
                                                     text: TextSpan(
                                                         text: 'Status : ',
-                                                        style: GoogleFonts
-                                                            .roboto(
-                                                          color: Colors.black,
-                                                          fontSize: 15,
-                                                          fontWeight: FontWeight
-                                                              .w500,
+                                                        style:
+                                                        GoogleFonts.roboto(
+                                                          color: Color(0xff4E4E4E),
+                                                          fontSize: 14,
+                                                          fontWeight:
+                                                          FontWeight.w400,
                                                         ),
                                                         children: <TextSpan>[
                                                           TextSpan(

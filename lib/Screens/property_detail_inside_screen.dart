@@ -5,6 +5,8 @@ import 'package:flutter/material.dart';
 import 'package:flutter_speed_dial/flutter_speed_dial.dart';
 import 'package:google_fonts/google_fonts.dart';
 import 'package:image_picker/image_picker.dart';
+import 'package:intl/intl.dart';
+import 'package:timelines/timelines.dart';
 
 import '../Widgets/button1_widget.dart';
 import '../Widgets/textfeild_widget.dart';
@@ -180,54 +182,66 @@ class _PropertyDetailInsideScreenState extends State<PropertyDetailInsideScreen>
                              height: 10,
                            ),
                            Text("B4,1004,panchsheel greens - 2, sector 16,Noida ,UP,2BHK (1105 sqft)",
-                               style: GoogleFonts.roboto(
-                                 color: Colors.black,
-                                 fontSize: 15,
-                                 fontWeight: FontWeight.w500,
+                               style:
+                               GoogleFonts.roboto(
+                                 color: Color(0xff4E4E4E),
+                                 fontSize: 14,
+                                 fontWeight:
+                                 FontWeight.w400,
                                )),
                            RichText(
                              text: TextSpan(
                                  text: 'Owner : ',
-                                 style: GoogleFonts.roboto(
-                                   color: Colors.black,
-                                   fontSize: 15,
-                                   fontWeight: FontWeight.w500,
+                                 style:
+                                 GoogleFonts.roboto(
+                                   color: Color(0xff4E4E4E),
+                                   fontSize: 14,
+                                   fontWeight:
+                                   FontWeight.w400,
                                  ),
                                  children: <TextSpan>[
                                    TextSpan(
                                        text: 'Gajendra Singh',
-                                       style: GoogleFonts.roboto(
-                                         color: Colors.black54,
-                                         fontSize: 15,
-                                         fontWeight: FontWeight.w400,
+                                       style:
+                                       GoogleFonts.roboto(
+                                         color: Color(0xff4E4E4E),
+                                         fontSize: 14,
+                                         fontWeight:
+                                         FontWeight.w400,
                                        )),
                                  ]),
                            ),
                            RichText(
                              text: TextSpan(
                                  text: 'Revenue Share : ',
-                                 style: GoogleFonts.roboto(
-                                   color: Colors.black,
-                                   fontSize: 15,
-                                   fontWeight: FontWeight.w500,
+                                 style:
+                                 GoogleFonts.roboto(
+                                   color: Color(0xff4E4E4E),
+                                   fontSize: 14,
+                                   fontWeight:
+                                   FontWeight.w400,
                                  ),
                                  children: <TextSpan>[
                                    TextSpan(
                                        text: '50%',
-                                       style: GoogleFonts.roboto(
-                                         color: Colors.black54,
-                                         fontSize: 15,
-                                         fontWeight: FontWeight.w400,
+                                       style:
+                                       GoogleFonts.roboto(
+                                         color: Color(0xff4E4E4E),
+                                         fontSize: 14,
+                                         fontWeight:
+                                         FontWeight.w400,
                                        )),
                                  ]),
                            ),
                            RichText(
                              text: TextSpan(
                                  text: 'Status : ',
-                                 style: GoogleFonts.roboto(
-                                   color: Colors.black,
-                                   fontSize: 15,
-                                   fontWeight: FontWeight.w500,
+                                 style:
+                                 GoogleFonts.roboto(
+                                   color: Color(0xff4E4E4E),
+                                   fontSize: 14,
+                                   fontWeight:
+                                   FontWeight.w400,
                                  ),
                                  children: <TextSpan>[
                                    TextSpan(
@@ -284,10 +298,10 @@ class _PropertyDetailInsideScreenState extends State<PropertyDetailInsideScreen>
                                    CrossAxisAlignment.start,
                                    children: [
                                      Text("Sun,Feb 19, 04:14 PM",
-                                         style: GoogleFonts.roboto(
-                                           color: const Color(
-                                               0xffA9A9AA),
-                                           fontSize: 15,
+                                         style:
+                                         GoogleFonts.roboto(
+                                           color: Color(0xff4E4E4E),
+                                           fontSize: 14,
                                            fontWeight:
                                            FontWeight.w400,
                                          )),
@@ -304,10 +318,6 @@ class _PropertyDetailInsideScreenState extends State<PropertyDetailInsideScreen>
                                ),
                              ],
                            ),
-
-
-
-
                          ],
                        ),
                      ),
@@ -347,29 +357,91 @@ class _PropertyDetailInsideScreenState extends State<PropertyDetailInsideScreen>
                                            child: Column(
                                              mainAxisSize: MainAxisSize.min,
                                              children: [
-                                               TextFieldWidget(
+                                               Container(
+                                                 alignment: Alignment.center,
+                                                 decoration: BoxDecoration(
+                                                   color: Colors.grey.shade100,
+                                                   borderRadius: const BorderRadius.all(Radius.circular(15)),
+                                                 ),
+
+                                                 child: TextField(
+
                                                    controller: dateController,
-                                                   obscureText: false,
-                                                   inputType: TextInputType.text,
-                                                   text: "",
-                                                   hintText: 'Date',
-                                                   cursorColor: Color(0xff2972FF),
-                                                   inputAction: TextInputAction
-                                                       .done,
-                                                   Maxline: 1),
+                                                   decoration:InputDecoration(
+                                                     contentPadding:
+                                                     const EdgeInsets.symmetric(horizontal: 10, vertical: 10),
+                                                     border: InputBorder.none,
+
+                                                     //  prefixIcon: Icon(Icons.phone),
+
+                                                     hintText: 'Date',
+                                                     hintStyle: GoogleFonts.roboto(
+                                                         fontSize: 16,
+                                                         fontWeight: FontWeight.w400,
+                                                         color: Color(0xffB7B8B8)),
+                                                   ),
+                                                   onTap: ()async{
+                                                     DateTime? pickedDate = await showDatePicker(
+                                                       context: context,
+                                                       initialDate: DateTime.now(),
+                                                       firstDate: DateTime(2000),
+                                                       lastDate: DateTime(2101),);
+                                                     if(
+                                                     pickedDate!=null){
+                                                       String formattedDate=DateFormat("dd-MM-yyyy").format(pickedDate);
+                                                       setState(() {
+                                                         dateController.text=formattedDate.toString();
+                                                       });
+                                                     }else{
+                                                       print("Not Selected");
+                                                     }
+                                                   },
+                                                   readOnly: true,
+                                                 ),
+                                               ),
+
                                                SizedBox(
                                                  height: 10,
                                                ),
-                                               TextFieldWidget(
-                                                   controller: timeController,
-                                                   obscureText: false,
-                                                   inputType: TextInputType.text,
-                                                   text: "",
-                                                   hintText: 'Time',
-                                                   cursorColor: Color(0xff2972FF),
-                                                   inputAction: TextInputAction
-                                                       .done,
-                                                   Maxline: 1),
+                                               Container(
+                                                 alignment: Alignment.center,
+                                                 decoration: BoxDecoration(
+                                                   color: Colors.grey.shade100,
+                                                   borderRadius: const BorderRadius.all(Radius.circular(15)),
+                                                 ),
+
+                                                 child: TextField(
+
+                                                     controller: timeController,
+                                                     decoration:InputDecoration(
+                                                       contentPadding:
+                                                       const EdgeInsets.symmetric(horizontal: 10, vertical: 10),
+                                                       border: InputBorder.none,
+
+                                                       //  prefixIcon: Icon(Icons.phone),
+
+                                                       hintText: 'Time',
+                                                       hintStyle: GoogleFonts.roboto(
+                                                           fontSize: 16,
+                                                           fontWeight: FontWeight.w400,
+                                                           color: Color(0xffB7B8B8)),
+                                                     ),
+                                                     onTap: ()async{
+                                                       final TimeOfDay? newTime =
+                                                       await showTimePicker(
+                                                         context: context,
+                                                         initialTime: TimeOfDay.now(),
+                                                       );
+                                                       setState(() {
+                                                         timeController.text =
+                                                             newTime!.format(context);
+                                                       });
+                                                     }
+
+
+                                                 ),
+                                               ),
+
                                                SizedBox(
                                                  height: 10,
                                                ),
@@ -639,33 +711,91 @@ class _PropertyDetailInsideScreenState extends State<PropertyDetailInsideScreen>
                                            child: Column(
                                              mainAxisSize: MainAxisSize.min,
                                              children: [
-                                               TextFieldWidget(
+                                               Container(
+                                                 alignment: Alignment.center,
+                                                 decoration: BoxDecoration(
+                                                   color: Colors.grey.shade100,
+                                                   borderRadius: const BorderRadius.all(Radius.circular(15)),
+                                                 ),
+
+                                                 child: TextField(
+
                                                    controller: date1Controller,
-                                                   obscureText: false,
-                                                   inputType: TextInputType
-                                                       .text,
-                                                   text: "",
-                                                   hintText: 'Date',
-                                                   cursorColor: Color(
-                                                       0xff2972FF),
-                                                   inputAction: TextInputAction
-                                                       .done,
-                                                   Maxline: 1),
+                                                   decoration:InputDecoration(
+                                                     contentPadding:
+                                                     const EdgeInsets.symmetric(horizontal: 10, vertical: 10),
+                                                     border: InputBorder.none,
+
+                                                     //  prefixIcon: Icon(Icons.phone),
+
+                                                     hintText: 'Date',
+                                                     hintStyle: GoogleFonts.roboto(
+                                                         fontSize: 16,
+                                                         fontWeight: FontWeight.w400,
+                                                         color: Color(0xffB7B8B8)),
+                                                   ),
+                                                   onTap: ()async{
+                                                     DateTime? pickedDate = await showDatePicker(
+                                                       context: context,
+                                                       initialDate: DateTime.now(),
+                                                       firstDate: DateTime(2000),
+                                                       lastDate: DateTime(2101),);
+                                                     if(
+                                                     pickedDate!=null){
+                                                       String formattedDate=DateFormat("dd-MM-yyyy").format(pickedDate);
+                                                       setState(() {
+                                                         date1Controller.text=formattedDate.toString();
+                                                       });
+                                                     }else{
+                                                       print("Not Selected");
+                                                     }
+                                                   },
+                                                   readOnly: true,
+                                                 ),
+                                               ),
+
                                                SizedBox(
                                                  height: 10,
                                                ),
-                                               TextFieldWidget(
-                                                   controller: time1Controller,
-                                                   obscureText: false,
-                                                   inputType: TextInputType
-                                                       .text,
-                                                   text: "",
-                                                   hintText: 'Time',
-                                                   cursorColor: Color(
-                                                       0xff2972FF),
-                                                   inputAction: TextInputAction
-                                                       .done,
-                                                   Maxline: 1),
+                                               Container(
+                                                 alignment: Alignment.center,
+                                                 decoration: BoxDecoration(
+                                                   color: Colors.grey.shade100,
+                                                   borderRadius: const BorderRadius.all(Radius.circular(15)),
+                                                 ),
+
+                                                 child: TextField(
+
+                                                     controller: time1Controller,
+                                                     decoration:InputDecoration(
+                                                       contentPadding:
+                                                       const EdgeInsets.symmetric(horizontal: 10, vertical: 10),
+                                                       border: InputBorder.none,
+
+                                                       //  prefixIcon: Icon(Icons.phone),
+
+                                                       hintText: 'Time',
+                                                       hintStyle: GoogleFonts.roboto(
+                                                           fontSize: 16,
+                                                           fontWeight: FontWeight.w400,
+                                                           color: Color(0xffB7B8B8)),
+                                                     ),
+                                                     onTap: ()async{
+                                                       final TimeOfDay? newTime =
+                                                       await showTimePicker(
+                                                         context: context,
+                                                         initialTime: TimeOfDay.now(),
+                                                       );
+                                                       setState(() {
+                                                         time1Controller.text =
+                                                             newTime!.format(context);
+                                                       });
+                                                     }
+
+
+                                                 ),
+                                               ),
+
                                                SizedBox(
                                                  height: 10,
                                                ),
@@ -935,6 +1065,316 @@ class _PropertyDetailInsideScreenState extends State<PropertyDetailInsideScreen>
                  SizedBox(
                    height: 20,
                  ),
+                 Card(
+                   color: Colors.white,
+                   elevation: 2,
+                   shape: RoundedRectangleBorder(
+                     borderRadius: BorderRadius.circular(12),
+                   ),
+                   child: Padding(
+                     padding: const EdgeInsets.only(left: 10),
+                     child: Column(
+                       children: [
+                         Timeline.tileBuilder(
+                           theme: TimelineThemeData(
+                             nodePosition: 0,
+                             color: Colors.blue,
+                             connectorTheme:
+                             ConnectorThemeData(thickness: 3.0),
+                           ),
+                           shrinkWrap: true,
+                           physics: NeverScrollableScrollPhysics(),
+                           builder: TimelineTileBuilder.fromStyle(
+                             itemCount: 1,
+                             contentsAlign: ContentsAlign.basic,
+                             contentsBuilder: (context, index) => Card(
+                               margin: EdgeInsets.only(top: 10,
+                                   bottom: 15, left: 10, right: 10),
+                               color: Colors.white,
+                               elevation: 2,
+                               shape: RoundedRectangleBorder(
+                                   borderRadius:
+                                   BorderRadius.circular(12)),
+                               child: Padding(
+                                 padding: EdgeInsets.all(10.0),
+                                 child: ListTile(
+                                   title: RichText(
+                                     text: TextSpan(
+                                         text: 'Call Scheduled ',
+                                         style: GoogleFonts.roboto(
+                                           color: Colors.blue,
+                                           fontSize: 15,
+                                           fontWeight:
+                                           FontWeight.w500,
+                                         ),
+                                         children: <TextSpan>[
+                                           TextSpan(
+                                               text: '',
+                                               style: GoogleFonts
+                                                   .roboto(
+                                                 color: Colors.black,
+                                                 fontSize: 15,
+                                                 fontWeight:
+                                                 FontWeight.w500,
+                                               )),
+                                         ]),
+                                   ),
+                                   subtitle: Column(
+                                     crossAxisAlignment:
+                                     CrossAxisAlignment.start,
+                                     children: [
+                                       SizedBox(
+                                         height: 5,
+                                       ),
+                                       Text(
+                                         'Call Date : 12/01/2023 ',
+                                         style:
+                                         GoogleFonts.roboto(
+                                           color: Color(0xff4E4E4E),
+                                           fontSize: 14,
+                                           fontWeight:
+                                           FontWeight.w400,
+                                         ),
+                                       ),
+                                       SizedBox(
+                                         height: 3,
+                                       ),
+                                       Text(
+                                         'Call Time : 3:50 pm ',
+                                         style:
+                                         GoogleFonts.roboto(
+                                           color: Color(0xff4E4E4E),
+                                           fontSize: 14,
+                                           fontWeight:
+                                           FontWeight.w400,
+                                         ),
+                                       ),
+                                       const SizedBox(
+                                         height: 3,
+                                       ),
+                                       RichText(
+                                         text: TextSpan(
+                                             text: 'Select Property : ',
+                                             style:
+                                             GoogleFonts.roboto(
+                                               color: Color(0xff4E4E4E),
+                                               fontSize: 14,
+                                               fontWeight:
+                                               FontWeight.w400,
+                                             ),
+                                             children: <TextSpan>[
+                                               TextSpan(
+                                                   text: 'Property 1',
+                                                   style:
+                                                   GoogleFonts.roboto(
+                                                     color: Color(0xff4E4E4E),
+                                                     fontSize: 14,
+                                                     fontWeight:
+                                                     FontWeight.w400,
+                                                   )),
+                                             ]),
+                                       ),
+                                       const SizedBox(
+                                         height: 3,
+                                       ),
+                                       RichText(
+                                         text: TextSpan(
+                                             text: 'Status : ',
+                                             style:
+                                             GoogleFonts.roboto(
+                                               color: Color(0xff4E4E4E),
+                                               fontSize: 14,
+                                               fontWeight:
+                                               FontWeight.w400,
+                                             ),
+                                             children: <TextSpan>[
+                                               TextSpan(
+                                                   text: 'Status 1',
+                                                   style:
+                                                   GoogleFonts.roboto(
+                                                     color: Color(0xff4E4E4E),
+                                                     fontSize: 14,
+                                                     fontWeight:
+                                                     FontWeight.w400,
+                                                   )),
+                                             ]),
+                                       ),
+                                       Text(
+                                           'Comment:  ',
+                                           style:
+                                           GoogleFonts.roboto(
+                                             color: Color(0xff4E4E4E),
+                                             fontSize: 14,
+                                             fontWeight:
+                                             FontWeight.w400,
+                                           )
+                                       ),
+
+                                     ],),
+                                 ),
+
+
+                               ),
+
+                             ),
+
+                           ),
+                         ),
+                         Timeline.tileBuilder(
+                           theme: TimelineThemeData(
+                             nodePosition: 0,
+                             color: Colors.blue,
+                             connectorTheme:
+                             ConnectorThemeData(thickness: 3.0),
+                           ),
+                           shrinkWrap: true,
+                           physics: NeverScrollableScrollPhysics(),
+                           builder: TimelineTileBuilder.fromStyle(
+                             itemCount: 1,
+                             contentsAlign: ContentsAlign.basic,
+                             contentsBuilder: (context, index) => Card(
+                               margin: EdgeInsets.only(top: 10,
+                                   bottom: 15, left: 10, right: 10),
+                               color: Colors.white,
+                               elevation: 2,
+                               shape: RoundedRectangleBorder(
+                                   borderRadius:
+                                   BorderRadius.circular(12)),
+                               child: Padding(
+                                 padding: EdgeInsets.all(10.0),
+                                 child: ListTile(
+                                   title: RichText(
+                                     text: TextSpan(
+                                         text: 'Scheduled meet ',
+                                         style: GoogleFonts.roboto(
+                                           color: Colors.blue,
+                                           fontSize: 15,
+                                           fontWeight:
+                                           FontWeight.w500,
+                                         ),
+                                         children: <TextSpan>[
+                                           TextSpan(
+                                               text: '',
+                                               style: GoogleFonts
+                                                   .roboto(
+                                                 color: Colors.black,
+                                                 fontSize: 15,
+                                                 fontWeight:
+                                                 FontWeight.w500,
+                                               )),
+                                         ]),
+                                   ),
+                                   subtitle: Column(
+                                     crossAxisAlignment:
+                                     CrossAxisAlignment.start,
+                                     children: [
+                                       SizedBox(
+                                         height: 5,
+                                       ),
+                                       Text(
+                                         'Call Date : 12/01/2023 ',
+                                         style:
+                                         GoogleFonts.roboto(
+                                           color: Color(0xff4E4E4E),
+                                           fontSize: 14,
+                                           fontWeight:
+                                           FontWeight.w400,
+                                         ),
+                                       ),
+                                       SizedBox(
+                                         height: 3,
+                                       ),
+                                       Text(
+                                         'Call Time : 3.50 pm ',
+                                         style:
+                                         GoogleFonts.roboto(
+                                           color: Color(0xff4E4E4E),
+                                           fontSize: 14,
+                                           fontWeight:
+                                           FontWeight.w400,
+                                         ),
+                                       ),
+                                       const SizedBox(
+                                         height: 3,
+                                       ),
+                                       RichText(
+                                         text: TextSpan(
+                                             text: 'Select Property : ',
+                                             style:
+                                             GoogleFonts.roboto(
+                                               color: Color(0xff4E4E4E),
+                                               fontSize: 14,
+                                               fontWeight:
+                                               FontWeight.w400,
+                                             ),
+                                             children: <TextSpan>[
+                                               TextSpan(
+                                                   text: 'Property 1',
+                                                   style:
+                                                   GoogleFonts.roboto(
+                                                     color: Color(0xff4E4E4E),
+                                                     fontSize: 14,
+                                                     fontWeight:
+                                                     FontWeight.w400,
+                                                   )),
+                                             ]),
+                                       ),
+                                       const SizedBox(
+                                         height: 3,
+                                       ),
+                                       RichText(
+                                         text: TextSpan(
+                                             text: 'Status : ',
+                                             style:
+                                             GoogleFonts.roboto(
+                                               color: Color(0xff4E4E4E),
+                                               fontSize: 14,
+                                               fontWeight:
+                                               FontWeight.w400,
+                                             ),
+                                             children: <TextSpan>[
+                                               TextSpan(
+                                                   text: 'Status 1',
+                                                   style:
+                                                   GoogleFonts.roboto(
+                                                     color: Color(0xff4E4E4E),
+                                                     fontSize: 14,
+                                                     fontWeight:
+                                                     FontWeight.w400,
+                                                   )),
+                                             ]),
+                                       ),
+                                       Text(
+                                           'Comment:  ',
+                                           style:
+                                           GoogleFonts.roboto(
+                                             color: Color(0xff4E4E4E),
+                                             fontSize: 14,
+                                             fontWeight:
+                                             FontWeight.w400,
+                                           )
+                                       ),
+
+                                     ],),
+                                 ),
+
+
+                               ),
+
+                             ),
+
+                           ),
+                         ),
+                       ],
+                     ),
+                   ),
+
+
+
+                 ),
+                SizedBox(
+                  height: 20,
+                ),
                 GridView.builder(
 
                     gridDelegate: SliverGridDelegateWithFixedCrossAxisCount(
@@ -995,9 +1435,20 @@ class _PropertyDetailInsideScreenState extends State<PropertyDetailInsideScreen>
                        ),
                        borderRadius: BorderRadius.all(Radius.circular(10)),
                      ),
-                     child: Text("Upload Photo",style: TextStyle(
-                       fontSize: 16,fontWeight: FontWeight.w400,color: Colors.white
-                     ),),
+                     child: Row(
+                       mainAxisAlignment: MainAxisAlignment.spaceAround,
+                       children: [
+
+                         Row(
+                           children: [
+                             Text("Upload Photo",style: TextStyle(
+                               fontSize: 16,fontWeight: FontWeight.w400,color: Colors.white
+                             ),),
+                           ],
+                         ),
+                         Icon(Icons.upload,color: Colors.white,)
+                       ],
+                     ),
 
                      /*Icon(
                        Icons.add,
@@ -1359,8 +1810,92 @@ class _PropertyDetailInsideScreenState extends State<PropertyDetailInsideScreen>
                               elevation: 0.0,
                               child: SingleChildScrollView(
                                 child: Column(
-                                  mainAxisSize: MainAxisSize.max,
+                                  mainAxisSize: MainAxisSize.min,
                                  children: [
+                                   GestureDetector(
+                                     onTap: () {
+                                       selectDoc();
+                                     },
+                                     child: (selectedDoc.isEmpty)
+                                         ? Container(
+                                       height: 40,
+                                       width: 250,
+                                       // color: Colors.lightBlue,
+                                       alignment: Alignment.center,
+
+                                       decoration: BoxDecoration(
+                                         // color: Colors.lightBlue,
+
+                                         border: Border.all(
+                                             color: Colors.black54,
+                                             width: 1.5),
+                                         borderRadius: BorderRadius.all(
+                                             Radius.circular(10)),
+                                       ),
+                                       child: Row(
+                                         mainAxisAlignment:
+                                         MainAxisAlignment.spaceAround,
+                                         children: [
+                                           Row(
+                                             children: [
+                                               Text(
+                                                 "Upload Aadhaar",
+                                                 style: TextStyle(
+                                                     fontSize: 16,
+                                                     fontWeight:
+                                                     FontWeight.w400,
+                                                     color: Colors.black),
+                                               ),
+                                             ],
+                                           ),
+                                           Icon(
+                                             Icons.upload,
+                                             color: Colors.black,
+                                           )
+                                         ],
+                                       ),
+
+                                     )
+                                         : GridView.builder(
+                                         shrinkWrap: true,
+                                         //  physics: NeverScrollableScrollPhysics(),
+                                         itemCount: selectedDoc.length,
+                                         gridDelegate:
+                                         SliverGridDelegateWithFixedCrossAxisCount(
+
+                                           crossAxisCount: 2,
+                                           crossAxisSpacing: 10,
+                                           mainAxisSpacing: 10,
+                                           childAspectRatio:
+                                           MediaQuery.of(context)
+                                               .size
+                                               .width /
+                                               (MediaQuery.of(context)
+                                                   .size
+                                                   .height /
+                                                   4.8),
+                                         ),
+                                         itemBuilder:
+                                             (BuildContext context, int index) {
+                                           return Container(
+                                             height: 100,
+                                             width: 70,
+                                             alignment: Alignment.center,
+                                             decoration: BoxDecoration(
+                                                 border: Border.all(
+                                                     color: Colors.grey,
+                                                     width: 1),
+                                                 borderRadius: BorderRadius.all(
+                                                     Radius.circular(10)),
+                                                 image: DecorationImage(
+                                                     image: FileImage(
+                                                       selectedDoc[index],
+                                                     ),
+                                                     fit: BoxFit.cover)),
+                                           );
+                                         }),
+                                   ),
+
 
 
 

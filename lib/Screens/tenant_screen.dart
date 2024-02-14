@@ -128,7 +128,7 @@ class _TenantScreenState extends State<TenantScreen> {
                                   ),
 
                                   SizedBox(
-                                    height: MediaQuery.of(context).size.height / 1.300,
+                                    height: MediaQuery.of(context).size.height / 1.330,
 
                                     child: ListView.builder(
                                         padding: EdgeInsets.zero,
@@ -165,41 +165,39 @@ class _TenantScreenState extends State<TenantScreen> {
                                                                       text: TextSpan(
                                                                           text: 'TL : ',
                                                                           style: GoogleFonts.roboto(
-                                                                            color: Colors.black,
-                                                                            fontSize: 15,
-                                                                            fontWeight: FontWeight.w500,
+                                                                            color: Color(0xff2F2E41),
+                                                                            fontSize: 14,
+                                                                            fontWeight: FontWeight.w400,
                                                                           ),
                                                                           children: <TextSpan>[
                                                                             TextSpan(
                                                                                 text: 'SH 00001',
-                                                                                style: GoogleFonts.roboto(
-                                                                                  color: Colors.black54,
-                                                                                  fontSize: 15,
-                                                                                  fontWeight: FontWeight.w400,
-                                                                                )),
+                                                                              style: GoogleFonts.roboto(
+                                                                                color: Color(0xff2F2E41),
+                                                                                fontSize: 14,
+                                                                                fontWeight: FontWeight.w400,
+                                                                              ),),
                                                                           ]),
                                                                     ),
                                                                     Text("Gajendra Singh",
-                                                                        style: GoogleFonts.roboto(
-                                                                          color: const Color(
-                                                                              0xff2F2E41),
-                                                                          fontSize: 15,
-                                                                          fontWeight:
-                                                                          FontWeight.w500,
-                                                                        )),
-                                                                    Text(
-                                                                      'gajendra.singh@gmail.com ',
                                                                       style: GoogleFonts.roboto(
-                                                                        color: Color(0xff4E4E4E),
-                                                                        fontSize: 13,
+                                                                        color: Color(0xff2F2E41),
+                                                                        fontSize: 14,
+                                                                        fontWeight: FontWeight.w400,
+                                                                      ),),
+                                                                    Text(
+                                                                      'gajendrasingh@gmail.com ',
+                                                                      style: GoogleFonts.roboto(
+                                                                        color: Color(0xff2F2E41),
+                                                                        fontSize: 14,
                                                                         fontWeight: FontWeight.w400,
                                                                       ),
                                                                     ),
                                                                     Text(
-                                                                      '+91 3783289323 ',
+                                                                      '+91 9897223366 ',
                                                                       style: GoogleFonts.roboto(
-                                                                        color: Color(0xff4E4E4E),
-                                                                        fontSize: 13,
+                                                                        color: Color(0xff2F2E41),
+                                                                        fontSize: 14,
                                                                         fontWeight: FontWeight.w400,
                                                                       ),
                                                                     ),
@@ -207,36 +205,36 @@ class _TenantScreenState extends State<TenantScreen> {
                                                                       text: TextSpan(
                                                                           text: 'Budget: ',
                                                                           style: GoogleFonts.roboto(
-                                                                            color: Colors.black,
-                                                                            fontSize: 15,
-                                                                            fontWeight: FontWeight.w500,
+                                                                            color: Color(0xff2F2E41),
+                                                                            fontSize: 14,
+                                                                            fontWeight: FontWeight.w400,
                                                                           ),
                                                                           children: <TextSpan>[
                                                                             TextSpan(
                                                                                 text: '15000.',
-                                                                                style: GoogleFonts.roboto(
-                                                                                  color: Colors.black54,
-                                                                                  fontSize: 15,
-                                                                                  fontWeight: FontWeight.w400,
-                                                                                )),
+                                                                              style: GoogleFonts.roboto(
+                                                                                color: Color(0xff2F2E41),
+                                                                                fontSize: 14,
+                                                                                fontWeight: FontWeight.w400,
+                                                                              ),),
                                                                           ]),
                                                                     ),
                                                                     RichText(
                                                                       text: TextSpan(
                                                                           text: 'Type: ',
                                                                           style: GoogleFonts.roboto(
-                                                                            color: Colors.black,
-                                                                            fontSize: 15,
-                                                                            fontWeight: FontWeight.w500,
+                                                                            color: Color(0xff2F2E41),
+                                                                            fontSize: 14,
+                                                                            fontWeight: FontWeight.w400,
                                                                           ),
                                                                           children: <TextSpan>[
                                                                             TextSpan(
                                                                                 text: 'Private/Shared',
-                                                                                style: GoogleFonts.roboto(
-                                                                                  color: Colors.black54,
-                                                                                  fontSize: 15,
-                                                                                  fontWeight: FontWeight.w400,
-                                                                                )),
+                                                                              style: GoogleFonts.roboto(
+                                                                                color: Color(0xff2F2E41),
+                                                                                fontSize: 14,
+                                                                                fontWeight: FontWeight.w400,
+                                                                              ),),
                                                                           ]),
                                                                     ),
                                                                   ],
@@ -366,41 +364,39 @@ class _TenantScreenState extends State<TenantScreen> {
                                                                       text: TextSpan(
                                                                           text: 'TL : ',
                                                                           style: GoogleFonts.roboto(
-                                                                            color: Colors.black,
-                                                                            fontSize: 15,
-                                                                            fontWeight: FontWeight.w500,
+                                                                            color: Color(0xff2F2E41),
+                                                                            fontSize: 14,
+                                                                            fontWeight: FontWeight.w400,
                                                                           ),
                                                                           children: <TextSpan>[
                                                                             TextSpan(
                                                                                 text: 'SH 00001',
-                                                                                style: GoogleFonts.roboto(
-                                                                                  color: Colors.black54,
-                                                                                  fontSize: 15,
-                                                                                  fontWeight: FontWeight.w400,
-                                                                                )),
+                                                                              style: GoogleFonts.roboto(
+                                                                                color: Color(0xff2F2E41),
+                                                                                fontSize: 14,
+                                                                                fontWeight: FontWeight.w400,
+                                                                              ),),
                                                                           ]),
                                                                     ),
                                                                     Text("Gajendra Singh",
-                                                                        style: GoogleFonts.roboto(
-                                                                          color: const Color(
-                                                                              0xff2F2E41),
-                                                                          fontSize: 15,
-                                                                          fontWeight:
-                                                                          FontWeight.w500,
-                                                                        )),
-                                                                    Text(
-                                                                      'gajendra.singh@gmail.com ',
                                                                       style: GoogleFonts.roboto(
-                                                                        color: Color(0xff4E4E4E),
-                                                                        fontSize: 13,
+                                                                        color: Color(0xff2F2E41),
+                                                                        fontSize: 14,
+                                                                        fontWeight: FontWeight.w400,
+                                                                      ),),
+                                                                    Text(
+                                                                      'gajendrasingh@gmail.com ',
+                                                                      style: GoogleFonts.roboto(
+                                                                        color: Color(0xff2F2E41),
+                                                                        fontSize: 14,
                                                                         fontWeight: FontWeight.w400,
                                                                       ),
                                                                     ),
                                                                     Text(
-                                                                      '+91 3783289323 ',
+                                                                      '+91 9897223366 ',
                                                                       style: GoogleFonts.roboto(
-                                                                        color: Color(0xff4E4E4E),
-                                                                        fontSize: 13,
+                                                                        color: Color(0xff2F2E41),
+                                                                        fontSize: 14,
                                                                         fontWeight: FontWeight.w400,
                                                                       ),
                                                                     ),
@@ -408,54 +404,54 @@ class _TenantScreenState extends State<TenantScreen> {
                                                                       text: TextSpan(
                                                                           text: 'Budget: ',
                                                                           style: GoogleFonts.roboto(
-                                                                            color: Colors.black,
-                                                                            fontSize: 15,
-                                                                            fontWeight: FontWeight.w500,
+                                                                            color: Color(0xff2F2E41),
+                                                                            fontSize: 14,
+                                                                            fontWeight: FontWeight.w400,
                                                                           ),
                                                                           children: <TextSpan>[
                                                                             TextSpan(
                                                                                 text: '15000.',
-                                                                                style: GoogleFonts.roboto(
-                                                                                  color: Colors.black54,
-                                                                                  fontSize: 15,
-                                                                                  fontWeight: FontWeight.w400,
-                                                                                )),
+                                                                              style: GoogleFonts.roboto(
+                                                                                color: Color(0xff2F2E41),
+                                                                                fontSize: 14,
+                                                                                fontWeight: FontWeight.w400,
+                                                                              ),),
                                                                           ]),
                                                                     ),
                                                                     RichText(
                                                                       text: TextSpan(
                                                                           text: 'Type: ',
                                                                           style: GoogleFonts.roboto(
-                                                                            color: Colors.black,
-                                                                            fontSize: 15,
-                                                                            fontWeight: FontWeight.w500,
+                                                                            color: Color(0xff2F2E41),
+                                                                            fontSize: 14,
+                                                                            fontWeight: FontWeight.w400,
                                                                           ),
                                                                           children: <TextSpan>[
                                                                             TextSpan(
                                                                                 text: 'Private/Sheared',
-                                                                                style: GoogleFonts.roboto(
-                                                                                  color: Colors.black54,
-                                                                                  fontSize: 15,
-                                                                                  fontWeight: FontWeight.w400,
-                                                                                )),
+                                                                              style: GoogleFonts.roboto(
+                                                                                color: Color(0xff2F2E41),
+                                                                                fontSize: 14,
+                                                                                fontWeight: FontWeight.w400,
+                                                                              ),),
                                                                           ]),
                                                                     ),
                                                                     RichText(
                                                                       text: TextSpan(
                                                                           text: 'Property : ',
                                                                           style: GoogleFonts.roboto(
-                                                                            color: Colors.black,
-                                                                            fontSize: 15,
-                                                                            fontWeight: FontWeight.w500,
+                                                                            color: Color(0xff2F2E41),
+                                                                            fontSize: 14,
+                                                                            fontWeight: FontWeight.w400,
                                                                           ),
                                                                           children: <TextSpan>[
                                                                             TextSpan(
                                                                                 text: 'B4,1004,Panchsheel Greens-2,Sector 16,Noida Up, 201301.',
-                                                                                style: GoogleFonts.roboto(
-                                                                                  color: Colors.black54,
-                                                                                  fontSize: 15,
-                                                                                  fontWeight: FontWeight.w400,
-                                                                                )),
+                                                                              style: GoogleFonts.roboto(
+                                                                                color: Color(0xff2F2E41),
+                                                                                fontSize: 14,
+                                                                                fontWeight: FontWeight.w400,
+                                                                              ),),
                                                                           ]),
                                                                     ),
                                                                   ],
@@ -598,41 +594,39 @@ class _TenantScreenState extends State<TenantScreen> {
                                                                       text: TextSpan(
                                                                           text: 'TL : ',
                                                                           style: GoogleFonts.roboto(
-                                                                            color: Colors.black,
-                                                                            fontSize: 15,
-                                                                            fontWeight: FontWeight.w500,
+                                                                            color: Color(0xff2F2E41),
+                                                                            fontSize: 14,
+                                                                            fontWeight: FontWeight.w400,
                                                                           ),
                                                                           children: <TextSpan>[
                                                                             TextSpan(
                                                                                 text: 'SH 00001',
-                                                                                style: GoogleFonts.roboto(
-                                                                                  color: Colors.black54,
-                                                                                  fontSize: 15,
-                                                                                  fontWeight: FontWeight.w400,
-                                                                                )),
+                                                                              style: GoogleFonts.roboto(
+                                                                                color: Color(0xff2F2E41),
+                                                                                fontSize: 14,
+                                                                                fontWeight: FontWeight.w400,
+                                                                              ),),
                                                                           ]),
                                                                     ),
                                                                     Text("Gajendra Singh",
-                                                                        style: GoogleFonts.roboto(
-                                                                          color: const Color(
-                                                                              0xff2F2E41),
-                                                                          fontSize: 15,
-                                                                          fontWeight:
-                                                                          FontWeight.w500,
-                                                                        )),
-                                                                    Text(
-                                                                      'gajendra.singh@gmail.com ',
                                                                       style: GoogleFonts.roboto(
-                                                                        color: Color(0xff4E4E4E),
-                                                                        fontSize: 13,
+                                                                        color: Color(0xff2F2E41),
+                                                                        fontSize: 14,
+                                                                        fontWeight: FontWeight.w400,
+                                                                      ),),
+                                                                    Text(
+                                                                      'gajendrasingh@gmail.com ',
+                                                                      style: GoogleFonts.roboto(
+                                                                        color: Color(0xff2F2E41),
+                                                                        fontSize: 14,
                                                                         fontWeight: FontWeight.w400,
                                                                       ),
                                                                     ),
                                                                     Text(
-                                                                      '+91 3783289323 ',
+                                                                      '+91 9897223366 ',
                                                                       style: GoogleFonts.roboto(
-                                                                        color: Color(0xff4E4E4E),
-                                                                        fontSize: 13,
+                                                                        color: Color(0xff2F2E41),
+                                                                        fontSize: 14,
                                                                         fontWeight: FontWeight.w400,
                                                                       ),
                                                                     ),
@@ -640,54 +634,54 @@ class _TenantScreenState extends State<TenantScreen> {
                                                                       text: TextSpan(
                                                                           text: 'Budget: ',
                                                                           style: GoogleFonts.roboto(
-                                                                            color: Colors.black,
-                                                                            fontSize: 15,
-                                                                            fontWeight: FontWeight.w500,
+                                                                            color: Color(0xff2F2E41),
+                                                                            fontSize: 14,
+                                                                            fontWeight: FontWeight.w400,
                                                                           ),
                                                                           children: <TextSpan>[
                                                                             TextSpan(
                                                                                 text: '15000.',
-                                                                                style: GoogleFonts.roboto(
-                                                                                  color: Colors.black54,
-                                                                                  fontSize: 15,
-                                                                                  fontWeight: FontWeight.w400,
-                                                                                )),
+                                                                              style: GoogleFonts.roboto(
+                                                                                color: Color(0xff2F2E41),
+                                                                                fontSize: 14,
+                                                                                fontWeight: FontWeight.w400,
+                                                                              ),),
                                                                           ]),
                                                                     ),
                                                                     RichText(
                                                                       text: TextSpan(
                                                                           text: 'Type: ',
                                                                           style: GoogleFonts.roboto(
-                                                                            color: Colors.black,
-                                                                            fontSize: 15,
-                                                                            fontWeight: FontWeight.w500,
+                                                                            color: Color(0xff2F2E41),
+                                                                            fontSize: 14,
+                                                                            fontWeight: FontWeight.w400,
                                                                           ),
                                                                           children: <TextSpan>[
                                                                             TextSpan(
                                                                                 text: 'Private/Sheared',
-                                                                                style: GoogleFonts.roboto(
-                                                                                  color: Colors.black54,
-                                                                                  fontSize: 15,
-                                                                                  fontWeight: FontWeight.w400,
-                                                                                )),
+                                                                              style: GoogleFonts.roboto(
+                                                                                color: Color(0xff2F2E41),
+                                                                                fontSize: 14,
+                                                                                fontWeight: FontWeight.w400,
+                                                                              ),),
                                                                           ]),
                                                                     ),
                                                                     RichText(
                                                                       text: TextSpan(
                                                                           text: 'Property : ',
                                                                           style: GoogleFonts.roboto(
-                                                                            color: Colors.black,
-                                                                            fontSize: 15,
-                                                                            fontWeight: FontWeight.w500,
+                                                                            color: Color(0xff2F2E41),
+                                                                            fontSize: 14,
+                                                                            fontWeight: FontWeight.w400,
                                                                           ),
                                                                           children: <TextSpan>[
                                                                             TextSpan(
                                                                                 text: 'B4,1004,Panchsheel Greens-2,Sector 16,Noida Up, 201301.',
-                                                                                style: GoogleFonts.roboto(
-                                                                                  color: Colors.black54,
-                                                                                  fontSize: 15,
-                                                                                  fontWeight: FontWeight.w400,
-                                                                                )),
+                                                                              style: GoogleFonts.roboto(
+                                                                                color: Color(0xff2F2E41),
+                                                                                fontSize: 14,
+                                                                                fontWeight: FontWeight.w400,
+                                                                              ),),
                                                                           ]),
                                                                     ),
                                                                   ],
@@ -1036,6 +1030,7 @@ class _TenantScreenState extends State<TenantScreen> {
 
                                                         ]),
                                                   )));
+
                                         }),
                                   ),
 
